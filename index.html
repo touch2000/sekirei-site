@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sekirei サポート</title>
+<meta name="description" content="TOMBO・yanma と同じ形式のメモフォルダを iPhone で読み書きするメモアプリ「Sekirei」のサポートページです。">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Sekirei</h1>
+      <p>TOMBO・yanma 互換のメモアプリ（iPhone）</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#setup">使い始める</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#contact">お問い合わせ</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </nav>
+
+  <section>
+    <h2>Sekirei とは</h2>
+    <p>Windows のメモソフト TOMBO・yanma と同じ形式のメモフォルダを、iPhone からそのまま読み書きできるメモアプリです。</p>
+    <ul>
+      <li>フォルダとメモを 1 本のツリーで表示します</li>
+      <li>メモの 1 行目がタイトルとファイル名になります</li>
+      <li>暗号化メモ（.chi / .chs）を、PC と同じパスワードで開いて編集できます</li>
+      <li>文字コード Shift_JIS・改行 CRLF のまま保存するので、PC 側でも文字化けしません</li>
+      <li>タイトルと本文から検索できます</li>
+    </ul>
+    <p class="note">TOMBO・yanma はそれぞれ別の作者によるソフトウェアです。Sekirei はそれらと同じファイル形式を扱う非公式のアプリで、各作者とは関係ありません。</p>
+  </section>
+
+  <section id="setup">
+    <h2>使い始める</h2>
+    <ol>
+      <li>PC の TOMBO・yanma で使っているメモフォルダを、iCloud Drive か Dropbox の中に置きます。</li>
+      <li>iPhone で Sekirei を開き、「フォルダを選ぶ」から同じフォルダを選びます。</li>
+      <li>選択画面が「このiPhone内 › Sekirei」の中から開いたときは、左上の「＜」で上に戻ると iCloud Drive や Dropbox が表示されます。</li>
+    </ol>
+    <h3>選べる保存場所</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>場所</th><th>選べるか</th></tr>
+        <tr><td>iCloud Drive</td><td class="ok">選べます</td></tr>
+        <tr><td>Dropbox</td><td class="ok">選べます（Dropbox アプリを入れてログインしておきます）</td></tr>
+        <tr><td>このiPhone内</td><td class="ok">選べます</td></tr>
+        <tr><td>OneDrive</td><td class="ng">選べません</td></tr>
+        <tr><td>Google ドライブ</td><td class="ng">選べません</td></tr>
+      </table>
+    </div>
+    <p class="note">OneDrive・Google ドライブは、各アプリが他のアプリからフォルダを選ぶ仕組みに対応していないため、選択画面で灰色になります。</p>
+  </section>
+
+  <section id="faq">
+    <h2>よくある質問</h2>
+
+    <h3>PC で作った暗号化メモが開けません</h3>
+    <p>PC の TOMBO・yanma で設定したものと同じパスワードを入力してください。日本語のパスワードにも対応しています。パスワードを忘れた場合は、誰にも開けません。</p>
+
+    <h3>「Shift_JIS で保存できない文字があります」と表示されました</h3>
+    <p>絵文字など、Shift_JIS で表せない文字が入っています。その文字を消すか、UTF-8 で保存してください。UTF-8 で保存したメモは、PC の TOMBO 本家では文字化けします。</p>
+
+    <h3>「（iPhone）」の付いたメモができました</h3>
+    <p>PC と iPhone で同じメモを同時に変更したとき、内容を失わないように iPhone 側の内容を別名で保存しています。内容を見比べて、不要な方を削除してください。</p>
+
+    <h3>PC で変更したメモが iPhone に出てきません</h3>
+    <p>iCloud Drive や Dropbox の同期が終わっていない可能性があります。メモの一覧を下に引っ張ると読み込み直します。</p>
+
+    <h3>Face ID でパスワードを入力するには</h3>
+    <p>暗号化メモを開くときの画面、または設定画面で「Face ID でパスワードを入力」をオンにしてください。パスワードは端末のキーチェーンにだけ保存されます。</p>
+  </section>
+
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告やご要望は、メールでお知らせください。</p>
+    <p><a href="mailto:appyokohama@broad-saito-5368.fool.jp">appyokohama@broad-saito-5368.fool.jp</a></p>
+    <p class="note">お使いの iPhone の機種と iOS のバージョン、どの操作で起きたかを書き添えていただけると助かります。メモの内容やパスワードは送らないでください。</p>
+  </section>
+
+  <footer>© 2026 Sekirei</footer>
+</div>
+</body>
+</html>
