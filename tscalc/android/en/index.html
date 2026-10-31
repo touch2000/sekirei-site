@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TScalc Android Support</title>
+<meta name="description" content="Scientific calculator for Android">
+<link rel="icon" href="../../favicon.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="../../icon.png" alt="">
+    <div>
+      <h1>TScalc</h1>
+      <p>Scientific calculator for Android</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#use">How to use</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="../../ios/en/">iPhone version</a>
+    <a href="../">日本語</a>
+  </nav>
+  <section>
+    <h2>About TScalc</h2>
+    <p>TScalc is a scientific calculator rebuilt for Android from a calculator originally made for Windows CE (Pocket PC) in 2001. Type an expression in natural order and calculate.</p>
+    <ul>
+      <li>sin, cos, tan, log, ln, √, powers, roots, eˣ, π, 1/x, ×10ⁿ (scientific notation)</li>
+      <li>Switch the angle unit between DEG and RAD</li>
+      <li>Past calculations stay on screen; tap one to bring it back and edit it</li>
+      <li>Use the previous answer with the Ans key</li>
+    </ul>
+  </section>
+
+  <section id="use">
+    <h2>How to use</h2>
+    <ol>
+      <li>Enter an expression with the keys and press = to calculate. While you type, the result appears as soon as the expression can be calculated.</li>
+      <li>After an answer, press + − × ÷ and so on to keep calculating from it.</li>
+      <li>Tap a past calculation above the expression to bring it back and edit it.</li>
+      <li>Tap the expression to move the cursor there. You can also use ‹ ›.</li>
+      <li>Tap the answer to copy it.</li>
+      <li>Switch the angle unit between degrees and radians with DEG / RAD.</li>
+      <li>The “?” button at the top right opens in-app help; the clock button opens the history list.</li>
+    </ol>
+    <h3>Keys</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Key</th><th>What it does</th></tr>
+        <tr><td>xʸ</td><td>Power (2 xʸ 10 = 1,024)</td></tr>
+        <tr><td>ʸ√x</td><td>Root (3 ʸ√x 27 = 3)</td></tr>
+        <tr><td>×10ⁿ</td><td>Scientific notation (1.5 ×10ⁿ 3 = 1,500)</td></tr>
+        <tr><td>1/x</td><td>Reciprocal</td></tr>
+        <tr><td>Ans</td><td>Previous answer</td></tr>
+        <tr><td>⌫</td><td>Delete one character</td></tr>
+        <tr><td>AC</td><td>Clear the expression</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <h3>Does 0.1+0.2 show 0.3?</h3>
+    <p>Yes. Floating-point noise is removed by rounding results to 15 significant digits.</p>
+    <h3>I got an error</h3>
+    <p>Division by zero, square roots of negative numbers, log(0), tan(90°) and similar cannot be calculated, so the app shows the reason. A missing closing parenthesis at the end of the expression is closed automatically.</p>
+    <h3>How do I clear the history?</h3>
+    <p>Open the history list with the clock button and tap “Clear All”. Deleting the app also removes it.</p>
+    <h3>Which languages are supported?</h3>
+    <p>Japanese and English. The app is shown in Japanese when the device language is Japanese, and in English otherwise.</p>
+  </section>
+
+  <section>
+    <h2>Requirements</h2>
+    <p>Android 8.0 or later, phones and tablets (in landscape on tablets, the display and keys are shown side by side)</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><a href="mailto:appyokohama@broad-saito-5368.fool.jp">appyokohama@broad-saito-5368.fool.jp</a></p>
+  </section>
+  <footer>© 2001–2026 T.Tsutsumi</footer>
+</div>
+</body>
+</html>
