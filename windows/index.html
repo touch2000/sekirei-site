@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sekirei Windows版 サポート</title>
+<meta name="description" content="TOMBO・yanma と同じ形式のメモフォルダを Windows で読み書きするメモアプリ「Sekirei」Windows版のダウンロードとサポートページです。">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="../icon.png" alt="">
+    <div>
+      <h1>Sekirei</h1>
+      <p>TOMBO・yanma 互換のメモアプリ（Windows）</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#download">ダウンロード</a>
+    <a href="#setup">使い始める</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#contact">お問い合わせ</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </nav>
+
+  <section>
+    <h2>Sekirei とは</h2>
+    <p>Windows のメモソフト TOMBO・yanma と同じ形式のメモフォルダを読み書きできるメモアプリです。iPhone 版・Android 版の Sekirei と同じ画面・同じ使い勝手で、Windows でも使えます。無料です。</p>
+    <ul>
+      <li>フォルダとメモを 1 本のツリーで表示します（左に一覧、右に編集の 2 画面）</li>
+      <li>メモの 1 行目がタイトルとファイル名になります</li>
+      <li>暗号化メモ（.chi / .chs）を、TOMBO と同じパスワードで開いて編集できます</li>
+      <li>文字コード Shift_JIS・改行 CRLF のまま保存するので、TOMBO・yanma でも文字化けしません</li>
+      <li>タイトルと本文から検索できます</li>
+    </ul>
+    <p class="note">TOMBO・yanma はそれぞれ別の作者によるソフトウェアです。Sekirei はそれらと同じファイル形式を扱う非公式のアプリで、各作者とは関係ありません。</p>
+  </section>
+
+  <section id="download">
+    <h2>ダウンロード</h2>
+    <p>どちらか一方をお使いください。中身は同じです。</p>
+    <div class="table-wrap">
+      <table>
+        <tr><th>形式</th><th>使い方</th></tr>
+        <tr>
+          <td><a href="https://github.com/touch2000/sekirei-site/releases/latest/download/Sekirei-Windows.msi">インストーラー（MSI）</a></td>
+          <td>ダウンロードして開くとインストールされ、スタートメニューとデスクトップに Sekirei が追加されます。管理者権限は要りません。</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/touch2000/sekirei-site/releases/latest/download/Sekirei-Windows.zip">zip</a></td>
+          <td>好きな場所に展開し、中の <code>Sekirei.exe</code> を起動します。インストールが許可されていない PC でも使えます。</td>
+        </tr>
+      </table>
+    </div>
+    <p>対応：Windows 10・11（64 ビット）。実行に必要なものはすべて同梱しているので、Java などを別に入れる必要はありません。</p>
+    <h3>「Windows によって PC が保護されました」と表示されたとき</h3>
+    <p>Sekirei には有料の署名を付けていないため、初めて開くときにこの画面が出ることがあります。「詳細情報」を押し、「実行」を押してください。</p>
+    <h3>新しい版にするには</h3>
+    <p>MSI の場合は、新しい MSI をそのまま開くと上書きされます。zip の場合は、新しい zip を展開し直してください。メモと設定はそのまま残ります。</p>
+    <h3>アンインストール</h3>
+    <p>MSI で入れた場合は「設定 › アプリ › インストールされているアプリ」から Sekirei をアンインストールします。zip の場合は、展開したフォルダを削除します。どちらもメモは消えません。</p>
+  </section>
+
+  <section id="setup">
+    <h2>使い始める</h2>
+    <ol>
+      <li>Sekirei を起動し、「フォルダを選ぶ」から TOMBO・yanma で使っているメモフォルダを選びます。</li>
+      <li>Dropbox・OneDrive・Google ドライブなどの同期フォルダも、そのまま選べます。iPhone 版・Android 版と同じクラウドのフォルダを選べば、スマートフォンと同じメモを使えます。</li>
+    </ol>
+    <h3>操作</h3>
+    <ul>
+      <li>フォルダをクリックすると開閉します。メモをクリックすると右側で編集できます。</li>
+      <li>フォルダやメモを右クリックすると「ここに新規メモ」「ここに新規フォルダ」「名前の変更」「削除」が出ます。</li>
+      <li>入力が 5 秒止まったとき、ほかのメモやウィンドウに移ったとき、ウィンドウを閉じるときに自動で保存します。</li>
+      <li>ウィンドウに戻るたびにフォルダを読み直します。一覧の上の読み込みボタン（↻）でも読み直せます。</li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <h2>よくある質問</h2>
+
+    <h3>暗号化メモが開けません</h3>
+    <p>TOMBO・yanma で設定したものと同じパスワードを入力してください。日本語のパスワードにも対応しています。パスワードを忘れた場合は、誰にも開けません。</p>
+
+    <h3>TOMBO・yanma と同時に使えますか</h3>
+    <p>使えます。同じメモを同時に変更した場合は、内容を失わないように Sekirei 側の内容を「タイトル (Windows).txt」として別名で保存します。内容を見比べて、不要な方を削除してください。</p>
+
+    <h3>「Shift_JIS で保存できない文字があります」と表示されました</h3>
+    <p>絵文字など、Shift_JIS で表せない文字が入っています。その文字を消すか、UTF-8 で保存してください。UTF-8 で保存したメモは、TOMBO 本家では文字化けします。</p>
+
+    <h3>削除したメモを元に戻したい</h3>
+    <p>Sekirei で削除したメモやフォルダは、Windows のごみ箱に移ります。ごみ箱から元に戻せます。</p>
+
+    <h3>パスワードはどこかに保存されますか</h3>
+    <p>保存しません。一度入力したパスワードは、ウィンドウを最小化するか Sekirei を閉じるまでの間だけ覚えています（設定で、最小化しても覚えておくようにもできます）。</p>
+  </section>
+
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>不具合のご報告やご要望は、メールでお知らせください。</p>
+    <p><a href="mailto:appyokohama@broad-saito-5368.fool.jp">appyokohama@broad-saito-5368.fool.jp</a></p>
+    <p class="note">お使いの Windows のバージョン、アプリのヘルプ画面に出ているバージョン・ビルド、どの操作で起きたかを書き添えていただけると助かります。メモの内容やパスワードは送らないでください。</p>
+  </section>
+
+  <footer>© 2026 Tatsuya Tsutsumi</footer>
+</div>
+</body>
+</html>
